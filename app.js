@@ -1,6 +1,7 @@
-//app.js
+﻿//app.js
 App({
   onLaunch: function () {
+    console.log("yuan");
     console.log("onLaunch");
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -34,19 +35,19 @@ App({
       }
     })
   },
-  onShow(){
+  onShow() {
     console.log("onShow");
   },
-  onHide(){
+  onHide() {
     console.log("onHide");
   },
   globalData: {
     userInfo: null
   },
-  yuan(){
+  yuan() {
     console.log('yuan');
   },
-  onPageNotFound(){
+  onPageNotFound() {
     console.log('onPageNotFound');
   }
 })
