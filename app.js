@@ -2,6 +2,7 @@
 App({
   onLaunch: function () {
     console.log("yuan");
+    console.log("你好牛逼");
     console.log("onLaunch");
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
